@@ -1,0 +1,372 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    /* header start */
+    .header-banner{
+        padding: 80px 0px;
+    }
+    /* header end */
+
+    /* our-department start */
+    /* our-department end */
+
+    /* limit start */
+    /* limit end */
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* header start */
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 20px;
+    }
+    .header-banner{
+        padding: 80px 0px;
+    }
+    .header-banner .header-banner-inner h1{
+        width: 53%;
+    }
+    .header-banner .header-banner-inner p{
+        width: 40%;
+    }
+    .header .navbar-light .navbar-nav .btn-success{
+        margin-left: 50px;
+    }
+    /* header end */
+    /* our-department start */
+    .our-department .card-body .card-title{
+        font-size: 24px;
+    }
+    .our-department .card-body{
+        left: 9%;
+    }
+    /* our-department end */
+
+    /* limit start */
+    /* limit end */
+
+    /* footer start */
+    .footer .featured ul{
+        width: 98%;
+    }
+    .footer .featured ul{
+        margin-right: 10px;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* header start */
+    /* menu start */
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .navbar-light .navbar-nav .btn-success{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    /* menu end */
+    .header-banner{
+        padding: 0px;
+    }
+    .header-banner .header-banner-inner h1{
+        width: 78%;
+        line-height: 50px;
+    }
+    .header-banner .header-banner-inner p{
+        width: 51%;
+    }
+    /* header end */
+    /* our-department start */
+    .our-department .card{
+        margin-bottom: 30px;
+    }
+    .our-department .card-body{
+        left: 30%;
+    }
+    /* our-department end */
+
+    /* limit start */
+    .limit .limit-right {
+        text-align: center;
+    }
+    .limit-right-number{
+        text-align: center;
+    }
+    /* limit end */
+
+    /* footer start */
+    .footer{
+        text-align: center;
+    }
+    .footer .footer-left p{
+        padding: 0px 61px;
+    }
+    .footer .footer-icon{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .learning ul{
+        margin-bottom: 40px;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* header start */
+    /* menu start */
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .navbar-light .navbar-nav .btn-success{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    /* menu end */
+    .header-banner{
+        padding: 0px;
+    }
+    .header-banner .header-banner-inner h1{
+        width: 78%;
+        line-height: 50px;
+    }
+    .header-banner .header-banner-inner p{
+        width: 51%;
+    }
+    /* header end */
+    .our-department .card{
+        margin-bottom: 30px;
+    }
+    .our-department .card-body{
+        left: 30%;
+    }
+    /* our-department end */
+
+    /* limit start */
+    .limit .limit-right {
+        text-align: center;
+    }
+    .limit-right-number{
+        text-align: center;
+    }
+    /* limit end */
+
+    /* footer start */
+    .footer{
+        text-align: center;
+    }
+    .footer .footer-left p{
+        padding: 0px 61px;
+    }
+    .footer .footer-icon{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .learning ul{
+        margin-bottom: 40px;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* header start */
+    /* menu start */
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .navbar-light .navbar-nav .btn-success{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    /* menu end */
+    .header-banner{
+        padding: 0px;
+    }
+    .header-banner .header-banner-inner h1{
+        width: 78%;
+        line-height: 50px;
+    }
+    .header-banner .header-banner-inner p{
+        width: 56%;
+    }
+    /* header end */
+    .our-department .card{
+        margin-bottom: 30px;
+    }
+    .our-department .card-body{
+        left: 17%;
+    }
+    .our-department .our-department-title p{
+        padding: 0px 9px;
+    }
+    /* our-department end */
+
+    /* limit start */
+    .limit .limit-right {
+        text-align: center;
+    }
+    .limit-right-number{
+        text-align: center;
+    }
+    .limit-right-number p{
+        margin-bottom: 30px;
+    }
+    /* limit end */
+
+    /* footer start */
+    .footer{
+        text-align: center;
+    }
+    .footer .footer-left p{
+        padding: 0px 50px;
+    }
+    .footer .footer-icon{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .learning ul{
+        margin-bottom: 40px;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    /* footer end */
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* header start */
+    /* menu start */
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+    }
+    .header .navbar-light .navbar-nav .btn-success{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    /* menu end */
+    .header-banner{
+        padding: 0px;
+    }
+    .header-banner .header-banner-inner h1{
+        width: 100%;
+        line-height: 32px;
+        font-size: 28px;
+    }
+    .header-banner .header-banner-inner p{
+        width: 90%;
+    }
+    /* header end */
+    /* header end */
+    .our-department .card{
+        margin-bottom: 30px;
+    }
+    .our-department .card-body{
+        left: 10%;
+    }
+    .our-department .our-department-title p{
+        padding: 0px 9px;
+    }
+    .our-department .card-body .card-title{
+        font-size: 24px;
+    }
+    /* our-department end */
+    /* limit start */
+    .limit .limit-right {
+        text-align: center;
+    }
+    .limit .limit-right h1{
+        font-size: 30px;
+    }
+    .limit-right-number{
+        text-align: center;
+    }
+    .limit-right-number p{
+        margin-bottom: 30px;
+        padding: 0px 9px;
+    }
+    /* limit end */
+
+    /* footer start */
+    .footer{
+        text-align: center;
+    }
+    .footer .footer-left p{
+        padding: 0px 20px;
+    }
+    .footer .footer-icon{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .featured ul{
+        margin-bottom: 40px;
+    }
+    .footer .learning ul{
+        margin-bottom: 40px;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    /* footer end */
+  }
